@@ -97,6 +97,12 @@ h2 {
 h3 {
 	color: #9FF33D;
 }
+
+section {
+	background-color: #C262D3;
+	clear: left;
+	width: 452px;
+}
 .summary {
 	background-color: silver;
 	box-shadow: 2px 2px 2px #111;
