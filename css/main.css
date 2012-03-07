@@ -27,10 +27,11 @@ Yellow : Darkest - #A69200
 body {
 	width: 790px;
 	margin: 0 auto;
+	background-color: #5D016D;
 }
 
 p {
-	color: red;
+	color: #FFE100;
 	font-size: 16px;
 	line-height: 1.5;
 }
@@ -74,12 +75,12 @@ ul {
 	margin-top: 21px;
 	border-top: 1px solid #39322D;
 	text-transform: uppercase;
-	letter-spacing: 0.1em
+	letter-spacing: 0.1em;
 }
 
 li {
 	border-bottom: 1px solid #39322D;
-	display: block;
+	display: inline;
 }
 
 h1 {
@@ -89,8 +90,13 @@ h1 {
 	
 h2 {
 	clear: both;
+	font-family: 'PT Sans', sans-serif;
+	color: #7CE700; 
 }
 
+h3 {
+	color: #9FF33D;
+}
 .summary {
 	background-color: silver;
 	box-shadow: 2px 2px 2px #111;
