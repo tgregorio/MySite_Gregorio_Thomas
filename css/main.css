@@ -1,0 +1,83 @@
+/* CSS font-callups: 
+	font-family: 'Fugaz One', cursive;
+	font-family: 'PT Sans', sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif; */
+	
+/* Color Palette (ordered darkest to lightest):
+
+Purple : Darkest - #5D016D
+		 Dark - #70227E
+		 Normal - #8F04A8
+		 Light - #BC38D3
+		 Lightest - #C262D3
+		 
+Green :  Darkest - #519600
+		 Dark - #71AD2B
+		 Normal - #7CE700
+		 Light - #9FF33D
+		 Lightest - #B5F36D
+		 
+Yellow : Darkest - #A69200
+		 Dark - #BFAE30
+		 Normal - #FFE100
+		 Light - #FFE840
+		 Lightest - #FFEE73
+*/
+
+body {
+	width: 790px;
+	margin: 0 auto;
+}
+
+p {
+	color: red;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+a {
+	color: #9CC4E5;
+	text-decoration: none;
+	line-height: 1.5;
+}
+
+a:link{
+	border-bottom: 2px dotted #9CC4E5;
+	color: red;
+}
+
+a:visited{
+	color: purple;
+}
+
+a:hover{
+	color: green;
+	border-bottom: none;
+}
+
+a:active{
+	color: blue;
+	border-bottom: none;
+}
+
+ul {
+	line-height: 1.8;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	border-top: 1px solid #39322D;
+	text-transform: uppercase;
+	letter-spacing: 0.1em
+}
+
+li {
+	border-bottom: 1px solid #39322D;
+	display: block;
+}
+
+.summary {
+	background-color: silver;
+	box-shadow: 2px 2px 2px #111;
+	border: 1 px solid #000;
+	padding: 6px  16px;
+}
