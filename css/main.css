@@ -60,11 +60,18 @@ a:active{
 	border-bottom: none;
 }
 
+#logo {
+	float: left;
+}
+
+nav {
+	float: right;
+}
+
 ul {
-	line-height: 1.8;
 	list-style: none;
 	padding: 0;
-	margin: 0;
+	margin-top: 21px;
 	border-top: 1px solid #39322D;
 	text-transform: uppercase;
 	letter-spacing: 0.1em
@@ -73,6 +80,15 @@ ul {
 li {
 	border-bottom: 1px solid #39322D;
 	display: block;
+}
+
+h1 {
+	font-family: 'Fugaz One', cursive;
+	float: left;
+}
+	
+h2 {
+	clear: both;
 }
 
 .summary {
