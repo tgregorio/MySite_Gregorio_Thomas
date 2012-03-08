@@ -27,7 +27,7 @@ Yellow : Darkest - #A69200
 body {
 	width: 790px;
 	margin: 0 auto;
-	background-color: #5D016D;
+	background-color: #570166;
 }
 
 a {
@@ -95,8 +95,9 @@ h2 {
 
 h3 {
 	color: #9FF33D;
-	font-family: 'PT Sans Narrow';
-	font-style: normal;
+	font-family: 'PT Sans';
+	font-size: 16px;
+	font-style: italic;
 	font-weight: normal;
 }
 
@@ -113,6 +114,14 @@ section {
 	margin: 20px 10px 20px 15px;
 	padding: 0px 15px;
 	width: 452px;
+}
+
+section h2 {
+	color: #FFE840;
+}
+
+section h3 {
+	color: white;
 }
 
 section p {
