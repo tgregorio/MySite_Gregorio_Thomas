@@ -45,11 +45,11 @@ body {
 a {
 	color: #9CC4E5;
 	line-height: 1.5;
-	text-decoration: underline;
 }
 
 a:link{
 	color: #B5F36D;
+	text-decoration: underline;
 }
 
 a:visited{
@@ -183,6 +183,20 @@ span {
 	padding-right: 15px;
 	color: white;
 	text-shadow: 3px 3px 2px #000; 
+}
+
+#sidebar a:link{
+	color: white;
+	text-decoration: none;
+}
+
+#sidebar a:visited{
+	color: white;
+}
+
+#sidebar a:hover{
+	background-color: #black;
+	color: white;
 }
 
 .box_1 {
