@@ -40,10 +40,12 @@ body {
 	padding-bottom: 1px;
 }
 
+/* Link Styling */
+
 a {
 	color: #9CC4E5;
 	line-height: 1.5;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:link{
@@ -51,12 +53,13 @@ a:link{
 }
 
 a:visited{
-	color: purple;
+	color: blue;
 }
 
 a:hover{
-	color: green;
-	text-decoration: line;
+	background-color: #9FF33D;
+	border: 2px solid #000;
+	color: white;
 	line-height: 1.5;
 }
 
@@ -69,6 +72,7 @@ a:active{
 	margin: -10px 0px 0px -20px;
 	overflow: hidden;
 }
+
 /* Navigation */
 
 nav {
@@ -81,7 +85,7 @@ nav {
 
 nav ul {
 	margin: 0;
-	padding: 20px 15px 0px 0px;
+	padding: 25px 15px 0px 0px;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 }
@@ -99,7 +103,7 @@ nav ul li a:hover {
 	color: #fff;
 }
 
-/* Heading traits inherited*/
+/* Heading traits */
 
 h2 {
 	clear: both;
@@ -114,6 +118,8 @@ h3 {
 	font-style: italic;
 	font-weight: normal;
 }
+
+/* Main Article */
 
 article {
 	background-color: #C262D3;
