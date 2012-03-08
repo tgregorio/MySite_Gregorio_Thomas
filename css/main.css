@@ -27,6 +27,7 @@ Yellow : Darkest - #A69200
 #wrapper {
 	background-color: #BC38D3;
 	border-radius: 8px;
+	box-shadow: 1px 1px 8px 1px;
 	width: 790px;
 	margin: 10px 0px;
 	padding-bottom: 1px;
