@@ -126,6 +126,10 @@ article h3 {
 	color: white;
 }
 
+article img {
+	box-shadow: 2px 2px 2px #111;
+}
+
 article p {
 	color: #FFE100;
 	font-size: 16px;
@@ -134,8 +138,8 @@ article p {
 
 .summary {
 	background-color: #BC38D3;
-	box-shadow: 2px 2px 2px #111;
 	border: 1px solid #000;
+	box-shadow: 2px 2px 2px #111;
 	font-family: 'PT Sans Narrow';
 	font-style: normal;
 	font-weight: bold;
