@@ -91,7 +91,7 @@ nav ul {
 }
 
 nav li {
-	background-color: #000;
+	background-color: #5D016D;
 	border: 2px solid #FFF;
 	display: inline;
 	margin: 0px 3px 0px 0px;
@@ -160,14 +160,16 @@ span {
 }
 
 .continue_reading {
-	padding: 10px 0px 0px 5px;
+	font-family: 'PT Sans Narrow', Verdana, sans-serif;
+	font-weight: bold;
+	padding: 10px 0px 0px 12px;
 }
 
 /* Sidebar stuff */
 
 #sidebar h1 {
 	font-family: 'Fugaz One', 'Lucida Handwriting', cursive;
-	font-size: 28px;
+	font-size: 36px;
 	padding-left: 15px;
 	padding-right: 15px;
 	color: white;
