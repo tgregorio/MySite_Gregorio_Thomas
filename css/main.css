@@ -74,6 +74,9 @@ a:active{
 
 nav {
 	float: right;
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
 }
 
 nav ul {
