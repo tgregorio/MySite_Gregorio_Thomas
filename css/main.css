@@ -47,7 +47,7 @@ a {
 }
 
 a:link{
-	border-bottom: 2px dotted #9CC4E5;
+	border-bottom: 2px normal #FFF;
 	color: red;
 }
 
@@ -67,7 +67,8 @@ a:active{
 
 #logo {
 	float: left;
-	width: 240px;
+	margin: -10px 0px 0px -20px;
+	overflow: hidden;
 }
 /* Navigation */
 
@@ -77,9 +78,8 @@ nav {
 
 ul {
 	list-style: none;
-	padding: 0;
+	padding: 0px 15px 0px 0px;
 	margin-top: 21px;
-	border-top: 1px solid #39322D;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 }
