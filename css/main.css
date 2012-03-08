@@ -25,10 +25,11 @@ Yellow : Darkest - #A69200
 */
 
 #wrapper {
-	background-repeat: repeat-y;
-	margin: auto 0;
-	width: 790px;
 	background-color: #BC38D3;
+	border-radius: 8px;
+	width: 790px;
+	margin: 10px 0px;
+	padding-bottom: 1px;
 }
 
 body {
