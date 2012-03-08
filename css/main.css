@@ -136,6 +136,9 @@ article p {
 	background-color: #BC38D3;
 	box-shadow: 2px 2px 2px #111;
 	border: 1px solid #000;
+	font-family: 'PT Sans Narrow';
+	font-style: normal;
+	font-weight: bold;
 	padding: 6px  16px;
 }
 
