@@ -1,7 +1,7 @@
 /* CSS font-callups: 
-	font-family: 'Fugaz One', cursive;
-	font-family: 'PT Sans', sans-serif;
-	font-family: 'PT Sans Narrow', sans-serif; */
+	font-family: 'Fugaz One', 'Lucida Handwriting', cursive;
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-family: 'PT Sans Narrow', Arial, sans-serif; */
 	
 /* Color Palette (ordered darkest to lightest):
 
@@ -100,20 +100,20 @@ nav ul li a:hover {
 /* Heading traits inherited*/
 
 h1 {
-	font-family: 'Fugaz One', cursive;
+	font-family: 'Fugaz One', 'Lucida Handwriting', cursive;
 	float: left;
 	padding-left: 15px;
 }
 	
 h2 {
 	clear: both;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'PT Sans', Arial, sans-serif;
 	color: #7CE700; 
 }
 
 h3 {
 	color: #9FF33D;
-	font-family: 'PT Sans';
+	font-family: 'PT Sans', Arial, sans-serif;
 	font-size: 16px;
 	font-style: italic;
 	font-weight: normal;
