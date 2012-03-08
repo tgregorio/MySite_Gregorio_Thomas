@@ -1,7 +1,7 @@
 /* CSS font-callups: 
 	font-family: 'Fugaz One', 'Lucida Handwriting', cursive;
 	font-family: 'PT Sans', Arial, sans-serif;
-	font-family: 'PT Sans Narrow', Arial, sans-serif; */
+	font-family: 'PT Sans Narrow', Verdana, sans-serif; */
 	
 /* Color Palette (ordered darkest to lightest):
 
@@ -158,7 +158,7 @@ article p {
 	background-color: #BC38D3;
 	border: 1px solid #000;
 	box-shadow: 2px 2px 2px #111;
-	font-family: 'PT Sans Narrow';
+	font-family: 'PT Sans Narrow', Verdana, sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	padding: 6px  16px;
@@ -199,7 +199,7 @@ article p {
 footer {
 	clear: both;
 	color: white;
-	font-family: 'PT Sans';
+	font-family: 'PT Sans', Arial, sans-serif;
 	font-style: italic;
 	font-weight: 400;
 	
