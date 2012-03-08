@@ -27,7 +27,8 @@ Yellow : Darkest - #A69200
 body {
 	width: 790px;
 	margin: 0 auto;
-	background-color: #570166;
+	/*background-color: #570166;*/
+	background-color: #8F04A8;
 }
 
 a {
@@ -118,6 +119,7 @@ section {
 
 section h2 {
 	color: #FFE840;
+	text-shadow: 3px 2px 1px #000;
 }
 
 section h3 {
@@ -141,16 +143,17 @@ section p {
 	padding: 10px 0px 0px 5px;
 }
 
+#sidebar h1 {
+	color: white;
+	text-shadow: 3px 3px 2px #000; 
+}
+
 .box_1 {
 	background-color: #97083F;
 	border: 4px solid #FFF;
 	float: right;
 	margin: 20px 15px auto 0px;
 	width: 244px;
-}
-
-.box_1 h1 {
-	color: white;
 }
 
 .box_2 {
@@ -162,10 +165,6 @@ section p {
 	float: right;
 	margin: 0px 15px auto 0px;
 	width: 244px;
-}
-
-.box_2 h1 {
-	color: white;
 }
 
 footer {
