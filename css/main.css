@@ -42,13 +42,12 @@ body {
 
 a {
 	color: #9CC4E5;
-	text-decoration: none;
 	line-height: 1.5;
+	text-decoration: none;
 }
 
 a:link{
-	border-bottom: 2px normal #FFF;
-	color: red;
+	color: #B5F36D;
 }
 
 a:visited{
@@ -57,12 +56,12 @@ a:visited{
 
 a:hover{
 	color: green;
-	border-bottom: none;
+	text-decoration: line;
+	line-height: 1.5;
 }
 
 a:active{
 	color: blue;
-	border-bottom: none;
 }
 
 #logo {
@@ -77,6 +76,7 @@ nav {
 	font-family: 'PT Sans', Arial, sans-serif;
 	font-size: 30px;
 	font-weight: bold;
+	overflow: visible;
 }
 
 nav ul {
@@ -88,26 +88,19 @@ nav ul {
 
 nav li {
 	background-color: #000;
-	border: 2px solid #39322D;
+	border: 2px solid #FFF;
 	display: inline;
 	margin: 0px 3px 0px 0px;
+	padding: 3px;
 }
 
 nav ul li a:hover {
-	background-color: #369;
-	border: 2px solid #999;
+	background-color: #9FF33D;
 	color: #fff;
-	padding: 0;
 }
 
 /* Heading traits inherited*/
 
-h1 {
-	font-family: 'Fugaz One', 'Lucida Handwriting', cursive;
-	float: left;
-	padding-left: 15px;
-}
-	
 h2 {
 	clear: both;
 	font-family: 'PT Sans', Arial, sans-serif;
@@ -174,6 +167,10 @@ article p {
 /* Sidebar stuff */
 
 #sidebar h1 {
+	font-family: 'Fugaz One', 'Lucida Handwriting', cursive;
+	font-size: 28px;
+	padding-left: 15px;
+	padding-right: 15px;
 	color: white;
 	text-shadow: 3px 3px 2px #000; 
 }
