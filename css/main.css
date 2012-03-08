@@ -168,6 +168,15 @@ span {
 	text-shadow: 3px 3px 2px #000; 
 }
 
+#sidebar p {
+	font-family: 'Fugaz One', 'Lucida Handwriting', cursive;
+	font-size: 16px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: white;
+	text-shadow: 3px 3px 2px #000; 
+}
+
 .box_1 {
 	background-color: #97083F;
 	border: 4px solid #FFF;
