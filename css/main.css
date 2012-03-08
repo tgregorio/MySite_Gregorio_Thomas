@@ -24,6 +24,13 @@ Yellow : Darkest - #A69200
 		 Lightest - #FFEE73
 */
 
+#wrapper {
+	background-repeat: repeat-y;
+	margin: auto 0;
+	width: 790px;
+	background-color: #BC38D3;
+}
+
 body {
 	width: 790px;
 	margin: 0 auto;
