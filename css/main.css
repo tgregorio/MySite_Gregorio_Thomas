@@ -198,6 +198,11 @@ article p {
 
 footer {
 	clear: both;
-	margin-left: 35px;
 	color: white;
+	font-family: 'PT Sans';
+	font-style: italic;
+	font-weight: 400;
+	
+	margin-left: 35px;
+	
 }
