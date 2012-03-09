@@ -73,14 +73,15 @@ a:active{
 	overflow: hidden;
 }
 
+
 /****** Navigation ******/
 
 nav {
+	clear: right;
 	float: right;
 	font-family: 'PT Sans', Arial, sans-serif;
 	font-size: 30px;
 	font-weight: bold;
-	overflow: visible;
 }
 
 nav ul {
@@ -95,7 +96,7 @@ nav li {
 	border: 2px solid #FFF;
 	display: inline;
 	margin: 0px 3px 0px 0px;
-	padding: 3px;
+	/*padding: 3px;*/
 }
 
 nav ul li a:hover {
