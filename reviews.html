@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>PodView - #1 Source for Podcast Equipment</title>
+		<meta charset="utf-8">
+		<title>PodView - #1 Source for Podcast Equipment</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Fugaz+One|PT+Sans:400,700,400italic|PT+Sans+Narrow:400,700' 
+	rel='stylesheet' type='text/css'>
 </head>
+
 <body>
+<div id='wrapper'>
 <header>
-	<h1>The best gear, the best prices, all in one place</h1>
-	<img src="images/podcast.jpg" width="402" height="354" alt="PodView logo" 
-	title="Welcome to PodView!">
+	<a href="index.html"><img src="images/podcast.png" width="302" height="266" alt="PodView logo" 
+	title="Welcome to PodView!" id="logo"></a>
 
 	<nav>
 		<ul>
@@ -19,10 +23,11 @@
 	</nav>
 </header>
 
-<!-- When we learn about 'tables', I'd like to do the Top 5 lists side-by-side-->
-
-<div id="review_section">
-	<h2 class="microphones_list">Our Top 5 Microphones</h2>
+	<article>
+		
+		<h2>Our Top 5 Microphones</h2>
+		
+		<div class="summary">
 		<ol>
 			<li>Shure SM58</li>
 			<li>Audio Technica AT2020</li>
@@ -30,23 +35,41 @@
 			<li>MXL 770</li>
 			<li>AKG Perception 120</li>
 		</ol>
-
-
-	<h2 class="latest_reviews">Newest Reviews</h2>
+		</div>
+		
+		<h2>All Reviews</h2>
+		
+		<div class="summary">
 		<ul>
-			<li><a href="reviews/microphones/shure_sm_58.html">Shure SM58 Microphone 
-			(02.30)</a></li>
-		</ul>
-
-
-</div>
+			<a href="reviews/microphones/shure_sm58_microphone.html">
+			<li>Shure SM58 Microphone <span>(03.08.12)</span></li></a>
+			<a href="reviews/accessories/nady_pop_filter.html">
+			<li>Nady Pop Filter <span>(03.08.12)</span></li></a>
+	</article>
 	
+	<div id="sidebar">
+		<div class="box_1">
+			<h1>Newest Reviews</h1>
+		</div>
+		<div class="box_2">
+			<p>Alesis iO4 Mixer <br>&#40;Coming Soon&#41;</p>
+		</div>
+		<div class="box_3">
+			<p><a href="reviews/microphones/shure_sm_58.html">Shure SM58 Microphone</a></p>
+		</div>
+		<div class="box_4">
+			<p><a href="reviews/accessories/nady_pop_filter.html">Nady Pop Filter</a></p>
+		</div>
+	</div>
+		
 <!-- Insert newsletter form here-->
 	
 	<footer>
 		<p>All Rights Reserved. &copy; 2012</p>
 	</footer>
-
+	
+	</div>
+	
 </body>
 
 </html>
