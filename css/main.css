@@ -33,7 +33,7 @@ body {
 	background-color: #BC38D3;
 	border-radius: 8px;
 	box-shadow: 1px 1px 8px 1px;
-	width: 80%;
+	width: 80%; 	/**** (800px) ****/
 	margin: 10px auto;
 	padding-bottom: 1px;
 }
@@ -129,7 +129,7 @@ article {
 	float: left;
 	margin: 20px 10px 20px 15px;
 	padding: 0px 15px 15px 15px;
-	width: 56.25%; /**** 450px ****/
+	width: 56.25%; 	/**** 450px ****/
 }
 
 article h2 {
@@ -144,11 +144,13 @@ article h3 {
 article img {
 	display: block;
 	margin: 0 auto;
+	max-width: 100%;
 }
 
 iframe {
 	display: block;
 	margin: 0 auto;
+	max-width: 100%;
 }
 
 span {
