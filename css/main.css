@@ -85,7 +85,7 @@ nav {
 
 nav ul {
 	margin: 0;
-	padding: 25px 15px 0px 0px;
+	padding: 3.125% 1.875% 0% 0%; /**** 25px 15px 0px 0px ****/
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 }
@@ -129,7 +129,7 @@ article {
 	box-shadow: 3px 3px 6px #111;
 	clear: left;
 	float: left;
-	margin: 20px 10px 20px 15px;
+	margin: 2.5% 1.25% 2.5% 1.875%; /**** 20px 10px 20px 15px ****/
 	padding: 0px 15px 15px 15px;
 	width: 56.25%; 	/**** 450px ****/
 }
@@ -176,15 +176,10 @@ span {
 
 /****** Sidebar stuff ******/
 
-#sidebar {
-	width: 100%;
-}
-
 #sidebar h1 {
 	font-family: 'Fugaz One', 'Lucida Handwriting', cursive;
 	font-size: 2.25em;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 0% 5.72519084%; /***** (15px / 262px) *****/
 	color: white;
 	text-shadow: 3px 3px 2px #000;
 }
@@ -192,8 +187,7 @@ span {
 #sidebar p {
 	font-family: 'Fugaz One', 'Lucida Handwriting', cursive;
 	font-size: 1em;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 0% 5.72519084%; /***** (15px / 262px) *****/
 	color: white;
 	text-shadow: 3px 3px 2px #000;
 }
@@ -218,7 +212,7 @@ span {
 	border-top-left-radius: 16px;
 	float: right;
 	margin: 2.25% 1.5% auto 0%; /**** 22.5px 15px auto 0px ****/
-	width: 32.75%;
+	width: 32.75%; /**** (262px) ****/
 }
 
 .box_2 {
@@ -229,7 +223,7 @@ span {
 	clear: right;
 	float: right;
 	margin: 0% 1.5% auto 0%; /***** 0px 15px auto 0px *****/
-	width: 32.75%;
+	width: 32.75%; /**** (262px) ****/
 }
 
 .box_3 {
@@ -240,7 +234,7 @@ span {
 	clear: right;
 	float: right;
 	margin: 0% 1.5% auto 0%; /***** 0px 15px auto 0px *****/
-	width: 32.75%;
+	width: 32.75%; /**** (262px) ****/
 }
 
 .box_4 {
@@ -251,7 +245,7 @@ span {
 	clear: right;
 	float: right;
 	margin: 0% 1.5% auto 0%; /***** 0px 15px auto 0px *****/
-	width: 32.75%;
+	width: 32.75%; /**** (262px) ****/
 }
 
 /****** Reviews ******/
@@ -284,5 +278,5 @@ footer {
 	font-family: 'PT Sans', Arial, sans-serif;
 	font-style: italic;
 	font-weight: 400;
-	margin-left: 35px;
+	margin-left: 4.375%; /**** (35px) ****/
 }
