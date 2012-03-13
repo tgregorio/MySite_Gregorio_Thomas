@@ -79,23 +79,26 @@ nav {
 	clear: right;
 	float: right;
 	font-family: 'PT Sans', Arial, sans-serif;
-	font-size: 1.875em; /**** 30px ****/
+	font-size: 1.25em; /**** 20px ****/
 	font-weight: bold;
+	margin: 0 auto;
+	padding: 0;
+	width: 510px;
 }
 
 nav ul {
-	margin: 0;
-	padding: 3.125% 1.875% 0% 0%; /**** 25px 15px 0px 0px ****/
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
+	list-style-type: none;
 }
 
 nav li {
 	background-color: #5D016D;
 	border: 2px solid #FFF;
 	display: inline;
+	float: left;
 	margin: 0px 3px 0px 0px;
-	/*padding: 3px;*/
+	width: 140px;
 }
 
 nav ul li a:hover {
