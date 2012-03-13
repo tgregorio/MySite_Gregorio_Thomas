@@ -129,7 +129,7 @@ article {
 	float: left;
 	margin: 20px 10px 20px 15px;
 	padding: 0px 15px 15px 15px;
-	width: 58.75%; /**** 470px ****/
+	width: 56.25%; /**** 450px ****/
 }
 
 article h2 {
@@ -217,7 +217,7 @@ span {
 	clear: right;
 	float: right;
 	margin: 20px 15px auto 0px;
-	width: 244px;
+	width: 32.75%;
 }
 
 .box_2 {
@@ -228,7 +228,7 @@ span {
 	clear: right;
 	float: right;
 	margin: 0px 15px auto 0px;
-	width: 244px;
+	width: 32.75%;
 }
 
 .box_3 {
@@ -239,7 +239,7 @@ span {
 	clear: right;
 	float: right;
 	margin: 0px 15px auto 0px;
-	width: 244px;
+	width: 32.75%;
 }
 
 .box_4 {
@@ -250,7 +250,7 @@ span {
 	clear: right;
 	float: right;
 	margin: 0px 15px auto 0px;
-	width: 244px;
+	width: 32.75%;
 }
 
 /****** Reviews ******/
