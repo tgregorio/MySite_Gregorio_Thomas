@@ -93,6 +93,7 @@ nav ul {
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	list-style-type: none;
+	width: 100%;
 }
 
 nav li {
@@ -100,9 +101,9 @@ nav li {
 	border: 2px solid #FFF;
 	display: inline;
 	float: left;
-	margin: 0px 3px 0px 0px;
+	margin: 0px 0.6% 0px 0px;
 	text-align: center;
-	width: 140px;
+	width: 28%; /***** 140px *****/
 }
 
 nav ul li a {
