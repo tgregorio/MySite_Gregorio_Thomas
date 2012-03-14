@@ -31,11 +31,21 @@ body {
 
 #wrapper {
 	background-color: #BC38D3;
-	border-radius: 8px;
+	-ms-
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
 	box-shadow: 1px 1px 8px 1px;
 	width: 80%; 	/**** (800px) ****/
 	margin: 1% auto; /**** 10px auto ****/
 	padding-bottom: .1%; /**** 1px ****/
+}
+
+/****** Header ******/
+
+header p {
+	font-size: 24px;
+	float: left;
 }
 
 #logo {
@@ -47,34 +57,6 @@ body {
 	max-width: 100%;
 	overflow: hidden;
 }
-
-
-/****** Link Styling ******/
-
-a {
-	color: #9CC4E5;
-	line-height: 1.5;
-	text-decoration: none;
-}
-
-a:link{
-	color: #B5F36D;
-}
-
-a:visited{
-	color: blue;
-}
-
-a:hover{
-	background-color: #9FF33D;
-	color: white;
-	line-height: 1.5;
-}
-
-a:active{
-	color: blue;
-}
-
 
 /****** Navigation ******/
 
@@ -121,6 +103,32 @@ nav ul li a:hover{
 	color: white;
 }
 
+/****** Link Styling ******/
+
+a {
+	color: #9CC4E5;
+	line-height: 1.5;
+	text-decoration: none;
+}
+
+a:link{
+	color: #B5F36D;
+}
+
+a:visited{
+	color: blue;
+}
+
+a:hover{
+	background-color: #9FF33D;
+	color: white;
+	line-height: 1.5;
+}
+
+a:active{
+	color: blue;
+}
+
 /****** Heading traits ******/
 
 h2 {
@@ -139,7 +147,9 @@ h3 {
 article {
 	background-color: #C262D3;
 	border: 4px solid #FFF;
-	border-radius: 8px;
+	-ms-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
 	box-shadow: 3px 3px 6px #111;
 	clear: left;
 	float: left;
@@ -214,8 +224,12 @@ span {
 .box_1 {
 	background-color: #97083F;
 	border: 4px solid #FFF;
-	border-top-right-radius: 16px;
-	border-top-left-radius: 16px;
+	-ms-border-top-right-radius: 16px;
+	-moz-border-top-right-radius: 16px;
+	-o-border-top-right-radius: 16px;
+	-ms-border-top-left-radius: 16px;
+	-moz-border-top-left-radius: 16px;
+	-o-border-top-left-radius: 16px;
 	float: right;
 	margin: 2.25% 1.5% auto 0%; /**** 22.5px 15px auto 0px ****/
 	width: 32.75%; /**** (262px) ****/
