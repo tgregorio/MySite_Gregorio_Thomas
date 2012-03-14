@@ -34,12 +34,11 @@ body {
 	border-radius: 8px;
 	box-shadow: 1px 1px 8px 1px;
 	width: 80%; 	/**** (800px) ****/
-	margin: 10px auto;
-	padding-bottom: 1px;
+	margin: 1% auto; /**** 10px auto ****/
+	padding-bottom: .1%; /**** 1px ****/
 }
 
 #logo {
-	border: 0px;
 	float: left;
 	margin: -1% 0% 0% -2%;
 	max-width: 100%;
@@ -165,7 +164,7 @@ iframe {
 }
 
 span {
-	margin-left: 15px;
+	margin-left: 3.333333333%; /***** 15px *****/
 }
 
 .summary {
@@ -178,14 +177,14 @@ span {
 	font-style: normal;
 	font-weight: bold;
 	line-height: 1.5;
-	padding: 6px 16px;
+	padding: 1.333333333% 3.555555556%; /***** 6px 16px *****/
 }
 
 .continue_reading {
 	font-family: 'PT Sans Narrow', Verdana, sans-serif;
 	font-size: 1em;
 	font-weight: bold;
-	padding: 8px 0px 0px 12px;
+	padding: 1.777777778% 0% 0% 2.666666667%; /***** 8px 0px 0px 12px *****/
 }
 
 /****** Sidebar stuff ******/
