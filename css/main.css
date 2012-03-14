@@ -41,6 +41,9 @@ body {
 #logo {
 	float: left;
 	margin: -1% 0% 0% -2%;
+	height: 33.25%; /***** (266px) *****/
+	width: 37.75%; /***** (302px) *****/
+	max-height: 100%;
 	max-width: 100%;
 	overflow: hidden;
 }
