@@ -78,9 +78,7 @@ a:active{
 nav {
 	clear: right;
 	float: right;
-	font-family: 'PT Sans', Arial, sans-serif;
-	font-size: 1.25em; /**** 20px ****/
-	font-weight: bold;
+	font: bold 1.25em 'PT Sans', Arial, sans serif;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
@@ -100,9 +98,9 @@ nav li {
 	border: 2px solid #FFF;
 	display: inline;
 	float: left;
-	margin: 0px 0.6% 0px 0px;
+	margin: 0% 0.6% 0% 0%; /***** (3px) *****/
 	text-align: center;
-	width: 28%; /***** 140px *****/
+	width: 28%; /***** (140px) *****/
 }
 
 nav ul li a {
@@ -127,10 +125,7 @@ h2 {
 
 h3 {
 	color: #9FF33D;
-	font-family: 'PT Sans', Arial, sans-serif;
-	font-size: 1em;
-	font-style: italic;
-	font-weight: normal;
+	font: italic 1em 'PT Sans', Arial, sans-serif;
 }
 
 /****** Main Article ******/
@@ -143,8 +138,8 @@ article {
 	clear: left;
 	float: left;
 	margin: 2.5% 1.25% 2.5% 1.875%; /**** 20px 10px 20px 15px ****/
-	padding: 0% 1.875% 1.875% 1.875%;/***** 0px 15px 15px 15px *****/
-	width: 56.25%; 	/**** 450px ****/
+	padding: 0% 1.875% 1.875% 1.875%; /***** 0px 15px 15px 15px *****/
+	width: 56.25%; 	/**** (450px) ****/
 }
 
 article h3 {
@@ -172,18 +167,12 @@ span {
 	border: 1px solid #000;
 	box-shadow: 2px 2px 2px #111;
 	color: #FFE100;
-	font-family: 'PT Sans Narrow', Verdana, sans-serif;
-	font-size: 1em;
-	font-style: normal;
-	font-weight: bold;
-	line-height: 1.5;
+	font: bold 1em/1.5 'PT Sans Narrow', Verdana, sans-serif;
 	padding: 1.333333333% 3.555555556%; /***** 6px 16px *****/
 }
 
 .continue_reading {
-	font-family: 'PT Sans Narrow', Verdana, sans-serif;
-	font-size: 1em;
-	font-weight: bold;
+	font: bold 1em 'PT Sans Narrow', Verdana, sans-serif;
 	padding: 1.777777778% 0% 0% 2.666666667%; /***** 8px 0px 0px 12px *****/
 }
 
