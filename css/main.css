@@ -179,16 +179,14 @@ span {
 /****** Sidebar stuff ******/
 
 #sidebar h1 {
-	font-family: 'Fugaz One', 'Lucida Handwriting', cursive;
-	font-size: 2.25em;
+	font: bold 2.25em 'Fugaz One', 'Lucida Handwriting', cursive;
 	padding: 0% 5.72519084%; /***** (15px / 262px) *****/
 	color: white;
 	text-shadow: 3px 3px 2px #000;
 }
 
 #sidebar p {
-	font-family: 'Fugaz One', 'Lucida Handwriting', cursive;
-	font-size: 1em;
+	font: 1em 'Fugaz One', 'Lucida Handwriting', cursive;
 	padding: 0% 5.72519084%; /***** (15px / 262px) *****/
 	color: white;
 	text-shadow: 3px 3px 2px #000;
