@@ -73,12 +73,11 @@ header h1 {
 
 .button {
 	clear: right;
-	float:right;
+	float: right;
 	display: inline-block;
 	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
 	*display: inline;
 	vertical-align: baseline;
-	margin: 0 0.25%; /***** 2px *****/
 	outline: none;
 	cursor: pointer;
 	text-align: center;
@@ -92,7 +91,7 @@ header h1 {
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
 	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
 	box-shadow: 0 1px 2px rgba(0,0,0,.2);
-	margin: 2% 10% 0% 0%; /**** 77px ****/
+	margin: 2% 10.25% 0% 0%; /**** 77px ****/
 }
 
 .button:hover {
@@ -126,6 +125,10 @@ header h1 {
 	background: -webkit-gradient(linear, left top, left bottom, from(#e740dd), to(#c042a4));
 	background: -moz-linear-gradient(top,  #e740dd,  #c042a4);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#e740dd', endColorstr='#c042a4');
+}
+
+.CTA:link {
+	color:white;
 }
 
 .CTA:visited {
@@ -179,8 +182,8 @@ nav li {
 
 nav ul li a {
 	display: block;
-	height: 35px;
-	line-height: 35px;
+	height: 150%; /**** 35px ****/
+	line-height: 150%; /**** 35px ****/
 }
 
 nav ul li a:visited{
@@ -292,6 +295,7 @@ span {
 .continue_reading {
 	font: bold 1em 'PT Sans Narrow', Verdana, sans-serif;
 	padding: 1.777777778% 0% 0% 2.666666667%; /***** 8px 0px 0px 12px *****/
+	margin: 3.555555556% 0%; /****** 16px ******/
 }
 
 /****** Sidebar stuff ******/
@@ -411,57 +415,86 @@ footer {
 	margin-left: 4.375%; /**** (35px) ****/
 }
 
+/***** Desktop *****/
+
 @media screen and (max-width: 900px) {
 
+
+}
+
+/***** Tablet *****/
+
+@media screen and (max-width: 775px) {
+	
 	#sidebar {
-		display: none
+		display: none;
 	}
 
-}
-
-@media screen and (max-width: 768px) {
+	article {
+		width: 90%;
+	}
+	
+	header h1 {
+		clear: right;
+		float: right;
+		width: 50%;
+	}
+	
+	.button {
+		margin-right: 17%;
+	}
+	
+	nav li {
+		font-size: 0.7em; /**** 13px *****/
+		width: 28%;
+	}
+	
+	
 	
 
-
-
 }
+
+/***** Cell phone *****/
 
 @media screen and (max-width: 480px) {
 
 	#logo {
-		padding-left: 34%
+		padding-left: 33%;
 	}
 	
 	#wrapper {
-		width: 95%
+		width: 95%;
 	}
 	
 	article {
-		width: 90%
+		width: 90%;
 	}
 	
 	article img {
-		display: none
+		display: none;
 	}
 	
 	header h1 {
-		display: none
+		display: none;
 	}
 	
 	.button {
-		display: none
+		display: none;
+	}
+	
+	nav {
+		clear: left;
+		clear: right;
+		width: 100%;
+		margin-right: 3.5%; /***** 28px *****/
 	}
 	
 	nav li {
-		font-size: 0.65em
-	}
-	
-	header nav ul {
-		padding-right: 33%
+		font-size: 0.7em; /**** 13px *****/
 	}
 	
 	footer {
-		text-align: center
+		text-align: center;
 	}
 	
 }
