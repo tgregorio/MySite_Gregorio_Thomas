@@ -428,7 +428,7 @@ footer {
 
 /***** Tablet *****/
 
-@media screen and (min-width: 481px) and (max-width: 775px) {
+@media screen and (min-width: 0px) and (max-width: 775px) {
 	
 	#wrapper {
 		width: 92%;
@@ -459,12 +459,16 @@ footer {
 		text-align: center;
 		margin: 0;
 	}
+	
+	iframe {
+		display: none;
+	}
 
 }
 
 /***** Cell phone *****/
 
-@media screen and (min-width: 240px) and (max-width: 480px) {
+@media screen and (min-width: 0px) and (max-width: 480px) {
 
 	#logo {
 		padding-left: 32.7%;
@@ -507,3 +511,8 @@ footer {
 	
 }
 
+@media screen and (min-width: 0px) and (max-width: 240px) {
+	nav li {
+		font-size: 0.6em;
+	}
+}
