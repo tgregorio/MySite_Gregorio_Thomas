@@ -519,6 +519,11 @@ footer {
 	
 	article h2 {
 		font-size: 1.35em;
+		text-align: center;
+	}
+	
+	article h3 {
+		text-align: center;
 	}
 	
 	.continue_reading {
