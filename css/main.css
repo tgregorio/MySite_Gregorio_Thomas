@@ -422,13 +422,13 @@ footer {
 /***** Desktop *****/
 
 @media screen and (min-width: 776px) and (max-width: 900px) {
-
+	test { color: red}
 
 }
 
 /***** Tablet *****/
 
-@media screen and (min-width: 481) and (max-width: 775px) {
+@media screen and (min-width: 481px) and (max-width: 775px) {
 	
 	#sidebar {
 		display: none;
