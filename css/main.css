@@ -443,7 +443,8 @@ footer {
 	}
 	
 	header h1 {
-		width: 47.75%;
+		font-size: 1.35em;
+		padding-right: 8%;
 	}
 	
 	.button {
@@ -471,7 +472,7 @@ footer {
 @media screen and (min-width: 0px) and (max-width: 480px) {
 
 	#logo {
-		padding-left: 32.7%;
+		padding-left: 33.7%;
 	}
 	
 	#wrapper {
@@ -511,6 +512,8 @@ footer {
 	
 }
 
+/***** Cell phone (Low Res) *****/
+
 @media screen and (min-width: 0px) and (max-width: 240px) {
 	
 	nav li {
@@ -529,4 +532,5 @@ footer {
 	.continue_reading {
 		text-align: center;
 	}
+	
 }
