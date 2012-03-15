@@ -512,7 +512,16 @@ footer {
 }
 
 @media screen and (min-width: 0px) and (max-width: 240px) {
+	
 	nav li {
 		font-size: 0.6em;
+	}
+	
+	article h2 {
+		font-size: 1.35em;
+	}
+	
+	.continue_reading {
+		text-align: center;
 	}
 }
