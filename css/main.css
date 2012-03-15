@@ -431,7 +431,7 @@ footer {
 @media screen and (min-width: 0px) and (max-width: 775px) {
 	
 	#wrapper {
-		width: 92%;
+		width: 92%; /**** (713px) ****/
 	}
 	
 	#sidebar {
@@ -476,11 +476,11 @@ footer {
 	}
 	
 	#wrapper {
-		width: 95%;
+		width: 95%; /**** (456px) ****/
 	}
 	
 	article {
-		width: 90%;
+		width: 90%; /**** (410.4px) ****/
 	}
 	
 	article img {
