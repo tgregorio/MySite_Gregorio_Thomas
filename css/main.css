@@ -430,12 +430,16 @@ footer {
 
 @media screen and (min-width: 481px) and (max-width: 775px) {
 	
+	#wrapper {
+		width: 92%;
+	}
+	
 	#sidebar {
 		display: none;
 	}
 
 	article {
-		width: 90%;
+		width: 91%;
 	}
 	
 	header h1 {
@@ -447,8 +451,13 @@ footer {
 	}
 	
 	nav li {
-		font-size: 0.7em; /**** 13px *****/
+		font-size: 0.85em; /**** 13px *****/
 		width: 28%;
+	}
+	
+	footer {
+		text-align: center;
+		margin: 0;
 	}
 
 }
@@ -489,11 +498,11 @@ footer {
 	}
 	
 	nav li {
-		font-size: 0.7em; /**** 13px *****/
+		font-size: 0.8em; /**** 13px *****/
 	}
 	
-	footer {
-		text-align: center;
+	#sidebar {
+		display: none;
 	}
-
+	
 }
