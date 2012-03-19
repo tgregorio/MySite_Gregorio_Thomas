@@ -259,6 +259,7 @@ article {
 	margin: 2.5% 1.25% 2.5% 1.875%; /**** 20px 10px 20px 15px ****/
 	padding: 0% 1.875% 1.875% 1.875%; /***** 0px 15px 15px 15px *****/
 	width: 56.25%; 	/**** (450px) ****/
+	min-height: 343px; /**** (370px) ****/
 }
 
 article h3 {
