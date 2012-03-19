@@ -389,6 +389,12 @@ span {
 	width: 32.75%; /**** (262px) ****/
 }
 
+/****** Contact ******/
+
+form legend, p {
+	font: bold 1em/1.5 'PT Sans Narrow', Verdana, sans-serif;
+}
+
 /****** Reviews ******/
 
 #review {
