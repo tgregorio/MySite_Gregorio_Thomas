@@ -26,17 +26,39 @@
 
 	<article>
 		
-			<form method="get" action="dropdown.html">
-			<p>
-				<label for="role">What are you contacting us about?</label>
-				<select name="role" id="role">
-					<option>Tips</option>
-					<option>Feedback/Suggestion</option>
-					<option>Technical Issue</option>
-					<option>Other</option>
-				</select>
-			</p>
-			</form>
+		<form method="get" action="fieldset.html">
+			<fieldset>
+				<legend>Personal Information</legend>
+				<p>
+					<label for="fullname">Full Name:</label>
+					<input type="text" name="fullname" id="fullname" />
+				</p>
+				<p>
+					<label for="email">Email:</label>
+					<input type="text" name="email" id="email" />
+				</p>
+			</fieldset>
+		</form>
+			
+		<form method="get" action="dropdown.html">
+				<p>
+					<label for="role">What are you contacting us about?</label>
+					<select name="role" id="role">
+						<option>Tips</option>
+						<option>Feedback/Suggestion</option>
+						<option>Technical Issue</option>
+						<option>Other</option>
+					</select>
+				</p>
+		</form>
+		
+		<form method="get" action="textarea.html">
+			<p><label for="hobbies">Type your message in the box below :</label></p>
+			<p><textarea name="hobbies" rows="7" cols="40"></textarea></p>
+			<input type="submit" />
+		</form>
+			
+			
 	
 	</article>
 	
