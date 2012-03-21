@@ -168,7 +168,7 @@ nav ul {
 	width: 100%;
 }
 
-nav li {
+nav ul li {
 	background-color: #5D016D;
 	border: 2px solid #FFF;
 	display: inline;
@@ -194,7 +194,6 @@ nav ul li a:visited{
 
 nav ul li a:hover{
 	background-color: #9FF33D;
-	color: white;
 }
 
 /****** Link Styling ******/
@@ -393,7 +392,22 @@ span {
 
 form legend, p {
 	font: bold 1em/1.5 'PT Sans Narrow', Verdana, sans-serif;
+	color: #FFE840;
+	-ms-text-shadow: 2px 2px 1px #000;
+	-webkit-text-shadow: 2px 2px 1px #000;
+	-moz-text-shadow: 2px 2px 1px #000;
+	-o-text-shadow: 2px 2px 1px #000;
+	text-shadow: 2px 2px 1px #000;
 }
+
+input:focus { 
+	border: 3px solid #6C6; 
+}
+
+textarea:focus {
+	border: 3px solid #6C6;
+}
+
 
 /****** Reviews ******/
 
@@ -458,7 +472,7 @@ footer {
 		margin-right: 17%;
 	}
 	
-	nav li {
+	nav ul li {
 		font-size: 0.85em; /**** 13px *****/
 		width: 28%;
 	}
@@ -509,12 +523,20 @@ footer {
 		margin-right: 2.4%; /***** 28px *****/
 	}
 	
-	nav li {
+	nav ul li {
 		font-size: 0.8em; /**** 13px *****/
 	}
 	
 	#sidebar {
 		display: none;
+	}
+	
+	fieldset {
+		width: 87%;
+	}
+	
+	textarea {
+		width: 100%;
 	}
 	
 }
@@ -523,7 +545,7 @@ footer {
 
 @media screen and (min-width: 0px) and (max-width: 240px) {
 	
-	nav li {
+	nav ul li {
 		font-size: 0.6em;
 	}
 	
