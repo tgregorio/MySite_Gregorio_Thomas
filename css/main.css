@@ -433,6 +433,18 @@ footer {
 	margin-left: 4.375%; /**** (35px) ****/
 }
 
+#like {
+	float: left;
+	font: 1em;
+	letter-spacing: -0.05em;
+}
+
+#dislike {
+	float: right;
+	font: 1em;
+	letter-spacing: -0.05em;
+}
+
 /*************** Media Queries *******************/
 
 /***** Desktop *****/
