@@ -463,7 +463,7 @@ td {
 	background-color: #71AD2B;
 	border: 1px solid #FFF;
 	font: italic 400 1em 'PT Sans', Arial, sans-serif;
-	padding: 1.1627906976744% 0%;
+	padding: 1.1627906976744% 0%; /**** 5px ****/
 }
 
 /*table {
@@ -639,11 +639,11 @@ td {
 	}
 	
 	th {
-		font: bold 0.7em 'PT Sans', Arial, sans serif;
+		font: bold 0.65em 'PT Sans', Arial, sans serif;
 	}
 	
 	td {
-		font: italic 400 0.6em 'PT Sans', Arial, sans-serif;
+		font: italic 400 0.55em 'PT Sans', Arial, sans-serif;
 	}
 	
 }
