@@ -440,8 +440,8 @@ footer {
 table {
 	/*border-collapse: collapse;*/
 	width: 100%;
-	margin: 15px 0px;
-	padding: 0px 10px;
+	margin: 3.4883720930233% 0%; /**** 15px ****/
+	padding: 0% 2.3255613953488%; /**** 10px ****/
 }
 
 td, th {
@@ -456,14 +456,14 @@ th {
 	border-top-right-radius: 8px;
 	background-color: #97083F;
 	font: bold 1.1em 'PT Sans', Arial, sans serif;
-	padding: 5px 0px;
+	padding: 1.1627906976744% 0%; /**** 5px ****/
 }
 
 td {
 	background-color: #71AD2B;
 	border: 1px solid #FFF;
 	font: italic 400 1em 'PT Sans', Arial, sans-serif;
-	padding: 5px;
+	padding: 1.1627906976744% 0%;
 }
 
 /*table {
@@ -607,6 +607,14 @@ td {
 		width: 100%;
 	}
 	
+	th {
+		font: bold 0.9em 'PT Sans', Arial, sans serif;
+	}
+	
+	td {
+		font: italic 400 0.8em 'PT Sans', Arial, sans-serif;
+	}
+	
 }
 
 /***** Cell phone (Low Res) *****/
@@ -628,6 +636,14 @@ td {
 	
 	.continue_reading {
 		text-align: center;
+	}
+	
+	th {
+		font: bold 0.7em 'PT Sans', Arial, sans serif;
+	}
+	
+	td {
+		font: italic 400 0.6em 'PT Sans', Arial, sans-serif;
 	}
 	
 }
