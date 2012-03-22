@@ -438,7 +438,7 @@ footer {
 /************* (testing) Review Table (testing) *************/
 
 table {
-	border-collapse: collapse;
+	/*border-collapse: collapse;*/
 	width: 100%;
 	margin: 15px 0px;
 	padding: 0px 10px;
@@ -450,16 +450,20 @@ td, th {
 }
 
 th {
+	border-top: 2px solid rgba(255,255,255, 0.7);
 	border-bottom: 1px solid #FFF;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 	background-color: #97083F;
+	font: bold 1.25em 'PT Sans', Arial, sans serif;
 	padding: 5px 0px;
 }
 
 td {
+	background-color: #71AD2B;
+	border: 1px solid #FFF;
+	font: italic 400 1em 'PT Sans', Arial, sans-serif;
 	padding: 5px;
-	background-color: #7CE700;
 }
 
 /*table {
