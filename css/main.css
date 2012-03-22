@@ -10,11 +10,13 @@ Dark - #70227E
 Normal - #8F04A8
 Light - #BC38D3
 Lightest - #C262D3
+
 Green : Darkest - #519600
 Dark - #71AD2B
 Normal - #7CE700
 Light - #9FF33D
 Lightest - #B5F36D
+
 Yellow : Darkest - #A69200
 Dark - #BFAE30
 Normal - #FFE100
@@ -390,7 +392,7 @@ span {
 
 /****** Contact ******/
 
-form legend, p {
+form legend, form p {
 	font: bold 1em/1.5 'PT Sans Narrow', Verdana, sans-serif;
 	color: #FFE840;
 	-ms-text-shadow: 2px 2px 1px #000;
@@ -400,7 +402,7 @@ form legend, p {
 	text-shadow: 2px 2px 1px #000;
 }
 
-input:focus, textarea:focus, select:focus { 
+input:focus, textarea:focus { 
 	border: 3px solid #6C6; 
 }
 
@@ -433,6 +435,39 @@ footer {
 	margin-left: 4.375%; /**** (35px) ****/
 }
 
+/************* (testing) Review Table (testing) *************/
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin: 15px 0px;
+	padding: 0px 10px;
+}
+
+td, th {
+	text-align: center;
+	color: white;
+}
+
+th {
+	border-bottom: 1px solid #FFF;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	background-color: #97083F;
+	padding: 5px 0px;
+}
+
+td {
+	padding: 5px;
+	background-color: #7CE700;
+}
+
+/*table {
+	border-collapse: collapse;
+	background-color: red;
+	width: 100%;
+}
+
 #like {
 	float: left;
 	font: 1em;
@@ -444,6 +479,28 @@ footer {
 	font: 1em;
 	letter-spacing: -0.05em;
 }
+
+.td_like {
+	float: left;
+	padding-bottom: 5px;
+}
+
+.td_dislike {
+	float: right;
+}
+
+.test1 {
+	float: left;
+	background-color: green;
+	width: 50%;
+	height: 100%;
+}
+
+.test2 {
+	background-color: orange;
+	float: right;
+	width: 50%;
+}*/
 
 /*************** Media Queries *******************/
 
